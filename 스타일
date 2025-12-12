@@ -1,0 +1,105 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #050510, #151535, #3b0f37);
+    color: white;
+    line-height: 1.5;
+    background-attachment: fixed;
+}
+
+/* HERO 영역 */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.neon-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: neonGlow 3s ease-in-out infinite;
+}
+
+/* 네온 애니메이션 */
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 10px #b460ff, 0 0 20px #6a00ff;
+    }
+    50% {
+        text-shadow: 0 0 20px #ff70e6, 0 0 40px #ff2cc3;
+    }
+    100% {
+        text-shadow: 0 0 10px #b460ff, 0 0 20px #6a00ff;
+    }
+}
+
+.hero-sub {
+    margin-top: 15px;
+    font-weight: 300;
+    color: #d4d4f7;
+}
+
+/* 소개 섹션 */
+.intro-section {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 카테고리별 노래 섹션 */
+.song-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.song-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* 카드 레이아웃(글래스모피즘) */
+.song-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.song-card {
+    width: 260px;
+    padding: 15px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 20px rgba(150, 80, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.song-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 100, 255, 0.6);
+}
+
+.song-card img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+.footer a {
+    color: #ffacee;
+}

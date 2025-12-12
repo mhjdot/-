@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 힐링송 플레이리스트</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="neon-title">My Healing Power-Up Songs</h1>
+            <p class="hero-sub">
+                기분이 무너지거나 심란할 때, 나를 평온하게 해주는 나만의 힐링송 플레이리스트
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- 노래 설명 섹션 -->
+        <section class="intro-section">
+            <h2>힐링송 소개</h2>
+            <p>
+                아래는 기분·상황별로 내가 자주 듣는 힐링송 12곡입니다.  
+                마음이 복잡하거나, 산책하며 여유를 느끼고 싶을 때, 계절 분위기를 담고 싶을 때마다 다른 느낌으로 나를 안정시키는 노래들이에요.
+            </p>
+
+            <!-- 주석: 여기에 너가 각 노래에 대한 너만의 이야기나 설명, 감상문을 자유롭게 추가하면 돼! -->
+            <!-- 예시: 
+                <p>이별이 힘들 때 많이 들었던 노래입니다. 처음 들었을 때의 감정이 아직도 생생해요.</p>
+            -->
+        </section>
+
+        <!-- 곡 분류 1: 이별할 때 듣는 곡 -->
+        <section class="song-section">
+            <h2>이별할 때 듣는 곡</h2>
+
+            <div class="song-grid">
+
+                <article class="song-card">
+                    <img src="1765514300282.jpg" alt="임한별 – 이별하러 가는 길">
+                    <h3>임한별 – 이별하러 가는 길</h3>
+                    <a href="https://www.youtube.com/watch?v=jT27daayn_k" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514300459.jpg" alt="윤하 – 먹구름">
+                    <h3>윤하 – 먹구름</h3>
+                    <a href="https://www.youtube.com/watch?v=hrO-BgLjJ-Q" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514300546.jpg" alt="토이 (with 권진아) – 그녀가 말했다">
+                    <h3>토이 (with 권진아) – 그녀가 말했다</h3>
+                    <a href="https://www.youtube.com/watch?v=EUFSDbnZ1o4" target="_blank">유튜브 듣기</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 곡 분류 2: 산책할 때 듣는 곡 -->
+        <section class="song-section">
+            <h2>산책할 때 듣는 노래</h2>
+
+            <div class="song-grid">
+
+                <article class="song-card">
+                    <img src="1765514305248.jpg" alt="실리카겔 – Big Void">
+                    <h3>Big Void – 실리카겔</h3>
+                    <a href="https://youtu.be/nej08HFsp7A?si=Tov7dcVonLm9Kr5u" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514305385.jpg" alt="백예린 – 산책">
+                    <h3>백예린 – 산책</h3>
+                    <a href="https://youtu.be/iAeeTin1uCA?si=fpSF4_TIh3qMzKOe" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514305465.jpg" alt="오월오일 – wish">
+                    <h3>오월오일 – wish</h3>
+                    <a href="https://youtu.be/t54PzeNJDIA?si=nkDX7gsyC1DaFBEZ" target="_blank">유튜브 듣기</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 곡 분류 3: 눈 올 때 듣는 노래 -->
+        <section class="song-section">
+            <h2>눈 올 때 듣는 노래</h2>
+
+            <div class="song-grid">
+
+                <article class="song-card">
+                    <img src="1765514308306.jpg" alt="프로미스나인 – 하얀 그리움">
+                    <h3>프로미스나인 – 하얀 그리움</h3>
+                    <a href="https://www.youtube.com/watch?v=5ZB9JLfIw_Q" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514308439.jpg" alt="40 – 듣는 편지">
+                    <h3>40 – 듣는 편지</h3>
+                    <a href="https://www.youtube.com/watch?v=a5oeNwoCi-s" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514308524.jpg" alt="소코도모 – 회전목마">
+                    <h3>소코도모 – 회전목마</h3>
+                    <a href="https://www.youtube.com/watch?v=tnAxZipkuWw" target="_blank">유튜브 듣기</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 곡 분류 4: 더울 때 듣는 노래 -->
+        <section class="song-section">
+            <h2>더울 때 듣는 노래</h2>
+
+            <div class="song-grid">
+
+                <article class="song-card">
+                    <img src="1765514310897.jpg" alt="DPR LIVE – Martini Blue">
+                    <h3>DPR LIVE – Martini Blue</h3>
+                    <a href="https://youtu.be/UDyPp9bkfD0?si=tShEXAhaPxSsnRFU" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514310970.jpg" alt="투모로우바이투게더 – 괴물을 살려두면 안 되는 걸까?">
+                    <h3>TXT – 그냥 괴물을 살려두면 안 되는 걸까?</h3>
+                    <a href="https://youtu.be/9OXAoESmsRE?si=xl0RQ_lydFCKRzxy" target="_blank">유튜브 듣기</a>
+                </article>
+
+                <article class="song-card">
+                    <img src="1765514311026.jpg" alt="샵 – Sweety">
+                    <h3>샵 – Sweety</h3>
+                    <a href="https://youtu.be/eG90LtY98yg?si=6agkxSM5dLPJN-_W" target="_blank">유튜브 듣기</a>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Contact: <a href="mailto:moon34497098@gmail.com">moon34497098@gmail.com</a></p>
+        <p>만든이: 구채은</p>
+    </footer>
+
+</body>
+</html>
